@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Thesaurus\Business.Thesaurus.csproj" />
+    <ProjectReference Include="..\Common.Thesaurus\Common.Thesaurus.csproj" />
+    <ProjectReference Include="..\DataAccess.Thesaurus\DataAccess.Thesaurus.csproj" />
+    <ProjectReference Include="..\Logger.Thesaurus\Logger.Thesaurus.csproj" />
+    <ProjectReference Include="..\Service.Thesaurus\Service.Thesaurus.csproj" />
+  </ItemGroup>
+
+</Project>
